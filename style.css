@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  height: 12vh;
+  background: #5b78c7;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  background: lightcoral;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
